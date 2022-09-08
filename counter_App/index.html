@@ -14,11 +14,14 @@
 a) for increasing the count when pressed
 b) for saving and restarting the counter -->
 <!-- it will be responsive -->
-<header>A counter web-App</header>
-<button>Increment</button>
-<button>save</button>
-<img src="image/train-img1.jpg">
-    
+<div class="main">
+    <header>A counter web-App</header>
+    <h2 id="counter-el">0</h2>
+    <button id="increment-el" onclick="increase()">Increment</button>
+    <button id="save-el" onclick="save()">save</button>
+    <h3 id="saved-el">previous: </h3>
+</div>
+    <img src="image/train-img1.jpg">
     <script src="scripts.js"></script>
 </body>
 </html>

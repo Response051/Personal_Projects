@@ -1,3 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    position: absolute;
+}
 header {
-    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: blueviolet;
+    right: 300px;
+}
+    
+img {
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    
 }
