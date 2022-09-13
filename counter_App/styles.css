@@ -4,12 +4,13 @@
 }
 .main {
     position: absolute;
+    right: 40%;
+
 }
 header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     color: blueviolet;
-    right: 300px;
 }
     
 img {
