@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .main {
     position: absolute;
@@ -10,12 +11,37 @@
 header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    color: blueviolet;
+    font-weight: bold;
+    color: rgb(124, 101, 223);
+    margin: 40px;
+    border: 10px black;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
 }
-    
+h2{
+    color: #fc1008;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.button {
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+button{
+    padding: 5px;
+    border-radius: 25px ;
+    margin: 10px;
+    font-size: 15px;
+    color: #fc1008;
+}    
 img {
     z-index: 1;
     height: 100vh;
     width: 100%;
-    
+    background-repeat: none;
+    background-size: contain;
 }
