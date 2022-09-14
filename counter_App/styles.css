@@ -6,6 +6,9 @@
 .main {
     position: absolute;
     right: 40%;
+    border: 2px  white;
+    padding: 10px;
+    background-color: black;
 
 }
 header {
@@ -37,7 +40,20 @@ button{
     margin: 10px;
     font-size: 15px;
     color: #fc1008;
-}    
+    transition: 0.3s;
+    transform: background-color;
+} 
+button:hover{
+    background-color: aquamarine;
+}
+h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(253, 6, 6);
+
+}
 img {
     z-index: 1;
     height: 100vh;
